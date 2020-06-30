@@ -12,8 +12,8 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/wc', methods=["POST","GET"])
-def wc():
+@app.route('/wcg', methods=["POST","GET"])
+def wcg():
     if request.method == "POST":
         words = request.form["words"]
         count = request.form["count"]
@@ -36,7 +36,15 @@ def wc():
         wc.generate(text)        
         wc.to_file("wordcloud.png")
     else:
-        return render_template('wc.html')
+        return render_template('wcg.html')
+
+@app.route('/blog')
+def blog():
+    return render_template('blog.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
