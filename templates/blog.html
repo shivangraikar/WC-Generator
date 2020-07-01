@@ -29,9 +29,11 @@
 
     <style>
         .new {
-            padding-top:5rem;
-            padding-left:30rem;
-            padding-right: 30rem;
+            padding-top:20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
         }
     </style>
 </head>
@@ -43,8 +45,6 @@
 
             <div id="logo" class="pull-left">
                 <h1><a href="{{ url_for('index') }}" class="scrollto"><span>wc</span>Generator</a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
 
             <nav id="nav-menu-container">
@@ -55,7 +55,7 @@
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
-    </header><!-- #header -->
+    </header>
     
     <section id="hero" class="wow fadeIn">
         <div class="new">
@@ -73,9 +73,9 @@
             <h2><b>Beware!</b></h2>
             <p>While wordclouds may seem to be aesthetic and eye-catching there are some disdavantages to it as well.
             </p>
-            <p><a href="">WordClouds considered harmful</a>by Jacob Harris, a New York Times senior software architect</p>
+            <p><a href="https://www.labor.ucla.edu/wp-content/uploads/2015/03/word-clouds-harmful.pdf" target="_blank">WordClouds considered harmful</a>by Jacob Harris, a New York Times senior software architect</p>
             <h2><b>References</b></h2>
-            <p><a href="https://www.jasondavies.com/wordcloud/">This wordcloud generator</a> was the one that gave me the idea of creating a web app. And so I decided to do it using Flask.</p>
+            <p><a href="https://www.jasondavies.com/wordcloud/" target="_blank">This wordcloud generator</a> was the one that gave me the idea of creating a web app. And so I decided to do it using Flask.</p>
 
 
         </div>
