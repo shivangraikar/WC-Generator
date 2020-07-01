@@ -1,0 +1,12 @@
+Flask==1.0.2
+gunicorn==20.0.4
+html5lib==1.0.1
+importlib-metadata==0.0.0
+ipython==7.4.0
+ipython-genutils==0.2.0
+jsonschema==3.0.1
+jupyter-client==5.2.4
+jupyter-core==4.4.0
+matplotlib==3.2.2
+Pillow==5.4.1
+wordcloud==1.7.0
