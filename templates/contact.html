@@ -33,6 +33,13 @@
             text-align:center;
         }
 
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+
         .fa {
             padding: 20px;
             font-size: 30px;
@@ -86,7 +93,7 @@
     </header><!-- #header -->
     
     <section id="hero" class="wow fadeIn">
-        <img src="{{ url_for('static', filename='img/shivang-img.jpg') }}" style="height:30rem; text-align:center; padding-left:28rem"></img>
+        <img src="{{ url_for('static', filename='img/shivang-img.jpg') }}" class="center"></img>
         <div class="new">
             <a href="https://www.linkedin.com/in/shivang-raikar/" class="fa fa-linkedin" target="_blank"></a>
             <a href="https://github.com/shivangraikar" class="fa fa-github" target="_blank"></a>
