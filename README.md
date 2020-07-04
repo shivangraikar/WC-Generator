@@ -41,7 +41,9 @@ localhost:5000
 
 # Generating wordcloud
 You are ready to click the generate wordcloud button, that is the last step of all these.
+
 Enter string: steve jobs
+
 And using all the default parameters, the output is 
 
 ![](https://github.com/shivangraikar/WC-Generator/blob/master/3.PNG)
