@@ -44,4 +44,4 @@ You are ready to click the generate wordcloud button, that is the last step of a
 Enter string: steve jobs
 And using all the default parameters, the output is 
 
-![](C:\Users\Shivang\Desktop\3.png)
+![](https://github.com/shivangraikar/WC-Generator/blob/master/3.PNG)
