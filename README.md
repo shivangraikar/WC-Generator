@@ -47,3 +47,7 @@ Enter string: steve jobs
 And using all the default parameters, the output is 
 
 ![](https://github.com/shivangraikar/WC-Generator/blob/master/3.PNG)
+
+
+# Medium blog
+Read my blog about Wordcloud generator on [Medium](https://medium.com/@shivangraikar/wordcloud-generator-using-python-and-flask-afd1bed1c578#4b6f-96abb77ade42)
